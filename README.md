@@ -7,16 +7,21 @@ Thanks to: \
 [artgor](https://www.kaggle.com/artgor/quick-and-dirty-regression) for their help.
 
 The model with the highest public score but a lower private score is [here](Overfit.ipynb) most likely due to overfitting of the XGB model(as the max depth was taken as 10) and the parameters were not optimised. This proved that a higher score on the public leaderboard does'nt necessary give a higher score in the private leaderboard. \
-Hence it is better to submit a kernel with a lower score as well. \
+Hence it is better to submit a kernel with a lower score as well. 
 
 ### Highest Scores
 My highest private score using lightboost and xgboost is [here](Highest_Score_0.ipynb).\
-Code with similar private score was using lightboost, xgboost, neural network and convolutional neural network is [here](Highest_Score_1.ipynb).\
+Code with similar private score was using lightboost, xgboost, neural network and convolutional neural network is [here](Highest_Score_1.ipynb).
 
 ### Weights 
 Code for finding the best weights is [here](weights_calculation.ipynb).
 
-### My attempt
+### Things I Missed
+Ensembling using: \
+1)Bagging \
+2)Boosting \
+Personal analysis of data.
+### My Attempt
 This was my first attempt at a kaggle competition. Since I joined the competition late, I had no time for analyzing the data thoroughly and hence had to rely on the above kernels for the processed data. All the given models have optimised hyperparameters using byesian optimisation(for LightBoost and Catboost) or hyperopt(for Xgboost).
 
 Thanks for reading!
