@@ -1,5 +1,5 @@
 # My First Try At 2019 Data Science Bowl 
-This repository consists of the coes of my first attept at a kaggle competition at:\ 
+This repository consists of the coes of my first attept at a kaggle competition at: \ 
 https://www.kaggle.com/c/data-science-bowl-2019 
 Thanks to: 
 [shippeng](https://www.kaggle.com/shippeng/convert-to-regression-classification) and \
