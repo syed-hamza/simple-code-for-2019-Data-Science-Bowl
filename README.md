@@ -6,7 +6,7 @@ Thanks to: \
 [shippeng](https://www.kaggle.com/shippeng/convert-to-regression-classification) and \
 [artgor](https://www.kaggle.com/artgor/quick-and-dirty-regression) for their help.
 
-The model with the highest public score but a lower private score is [here](Overfit.ipynb) most likely due to overfitting of the XGB model(as the max depth was taken as 10) and the parameters were not optimised. This proved that a higher score on the public leaderboard does'nt necessary give a higher score in the private leaderboard. \
+The model with my highest public score but a comparitively less private score is [here](Overfit.ipynb) most likely due to overfitting of the XGB model(as the max depth was taken as 10) and the parameters were not optimised. This proved that a higher score on the public leaderboard does'nt necessary give a higher score in the private leaderboard. \
 Hence it is better to submit a kernel with a lower score as well. 
 
 ### Highest Scores
@@ -14,7 +14,7 @@ My highest private score using lightboost and xgboost is [here](Highest_Score_0.
 Code with similar private score was using lightboost, xgboost, neural network and convolutional neural network is [here](Highest_Score_1.ipynb).
 
 ### Weights 
-Code for finding the best weights is [here](weights_calculation.ipynb).
+Code for finding the best weights for ensembling is [here](weights_calculation.ipynb) using the predictions taken from the lgb and xgb model.Since the data used by kaggle for submission can be fairly varied, we cannot do this process using the training data itself as it will guarantee a overfitted model.
 
 ### Things I Missed
 Ensembling using: \
