@@ -1,7 +1,7 @@
 # My First Try At 2019 Data Science Bowl 
-I'm Syed Hamza, 16Yr old High School student. I'm avid python programmer also interested in Machine Learning and Deep Learning techniques. This is my first attempt to Kaggle compettition. Unfortunately, I joined after three months of the compettion. 
+I'm Syed Hamza, 16 Year old High School student. I'm an enthusiastic python programmer also interested in Machine Learning and Deep Learning techniques. This is my first attempt to Kaggle compettition. Unfortunately, I joined the competition when it was nearing the deadline.
 
-I loaded around 60 kernels to incrementally improve the score using XGB, LGB and CATBOOST, but I missed trying important tests using ensembles.  My pre-final public score was 0.553 but after the final day the score turned to 0.527 with private leaderboard ranking around 1200. This rank is still better in a list of around 3500+ teams. 
+I loaded around 60 kernels to incrementally improve the score using XGB, LGB and CATBOOST, but I missed trying important tests using ensembles.  My pre-final public score was 0.553 but after the final day the score turned to 0.527 with private leaderboard ranking around 1200 among 3500 teams.
 
 Here, I'm presenting my experience from few important kernels, incase it helps someone later time.
 
